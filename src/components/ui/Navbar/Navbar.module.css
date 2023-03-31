@@ -1,0 +1,19 @@
+.root {
+  @apply sticky top-0 z-40 transition-all duration-150 bg-zinc-900;
+}
+
+.link {
+  @apply inline-flex items-center p-1 font-medium leading-6 transition duration-75 ease-in-out rounded-md cursor-pointer text-zinc-200;
+}
+
+.link:hover {
+  @apply text-zinc-100;
+}
+
+.link:focus {
+  @apply outline-none text-zinc-100 ring-2 ring-pink-500 ring-opacity-50;
+}
+
+.logo {
+  @apply duration-100 ease-in-out transform rounded-full cursor-pointer;
+}

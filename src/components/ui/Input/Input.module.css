@@ -1,0 +1,7 @@
+.root {
+  @apply w-full px-3 py-2 transition duration-150 ease-in-out bg-zinc-900 border appearance-none border-zinc-500 text-zinc-200;
+}
+
+.root:focus {
+  @apply outline-none;
+}
